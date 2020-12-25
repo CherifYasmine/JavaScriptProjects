@@ -23,9 +23,10 @@ header {
   /* justify-content: flex-end; */
   
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:300px){
   header{
     display: block;
+    background-color: var(--secondary-color);
   }
 
   header #form{
