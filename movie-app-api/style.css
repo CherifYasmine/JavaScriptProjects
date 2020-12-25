@@ -17,17 +17,33 @@ body {
 
 header {
   padding: 1rem;
-  display: flex;
-  justify-content: flex-end;
+  display: block;
   background-color: var(--secondary-color);
+  padding-bottom: 4rem;
+  /* justify-content: flex-end; */
+  
 }
 
+.home{
+  
+  text-decoration: none;
+  color: white;
+  justify-content: flex-start;
+  font-family: inherit;
+  font-size: 30px;
+  padding: 0.5rem 1rem;
+  float: left;
+}
+#form {
+  float: right;
+
+}
 .search {
   background-color: transparent;
   border: 2px solid var(--primary-color);
   border-radius: 50px;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 25px;
   padding: 0.5rem 1rem;
   color: #fff;
 }
@@ -45,6 +61,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top:2rem;
 }
 
 .movie {
@@ -94,8 +111,8 @@ main {
 }
 
 .overview {
-  background-color: #fff;
-  padding: 2rem;
+  background-color: var(--secondary-color);
+  padding: 1rem;
   position: absolute;
   left: 0;
   bottom: 0;
